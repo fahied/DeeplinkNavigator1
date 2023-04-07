@@ -21,10 +21,10 @@ let package = Package(
         .target(
             name: "DeeplinkNavigator",
             dependencies: [],
+            path: "DeeplinkNavigator/Sources",
             exclude: [
                 "Example/"
-            ],
-            path: "DeeplinkNavigator/Sources"
+            ]
             ),
         .testTarget(
             name: "DeeplinkNavigatorTests",
