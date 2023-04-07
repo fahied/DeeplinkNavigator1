@@ -7,74 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B9D458029DFD27C0034E500 /* DeeplinkNavigatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9D457F29DFD27C0034E500 /* DeeplinkNavigatorApp.swift */; };
-		5B9D458229DFD27C0034E500 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9D458129DFD27C0034E500 /* ContentView.swift */; };
-		5B9D458429DFD27D0034E500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B9D458329DFD27D0034E500 /* Assets.xcassets */; };
-		5B9D458729DFD27D0034E500 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B9D458629DFD27D0034E500 /* Preview Assets.xcassets */; };
-		5B9D459229DFD4200034E500 /* DeeplinkNavigator in Frameworks */ = {isa = PBXBuildFile; productRef = 5B9D459129DFD4200034E500 /* DeeplinkNavigator */; };
+		5B9D45DC29DFE1D40034E500 /* ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9D45DB29DFE1D40034E500 /* ExampleApp.swift */; };
+		5B9D45DE29DFE1D40034E500 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9D45DD29DFE1D40034E500 /* ContentView.swift */; };
+		5B9D45E029DFE1D60034E500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B9D45DF29DFE1D60034E500 /* Assets.xcassets */; };
+		5B9D45E329DFE1D60034E500 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B9D45E229DFE1D60034E500 /* Preview Assets.xcassets */; };
+		5B9D45ED29DFE27F0034E500 /* DeeplinkNavigator in Frameworks */ = {isa = PBXBuildFile; productRef = 5B9D45EC29DFE27F0034E500 /* DeeplinkNavigator */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5B9D457C29DFD27C0034E500 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B9D457F29DFD27C0034E500 /* DeeplinkNavigatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkNavigatorApp.swift; sourceTree = "<group>"; };
-		5B9D458129DFD27C0034E500 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		5B9D458329DFD27D0034E500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5B9D458629DFD27D0034E500 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5B9D458829DFD27D0034E500 /* DeeplinkNavigator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DeeplinkNavigator.entitlements; sourceTree = "<group>"; };
-		5B9D458F29DFD3E20034E500 /* DeeplinkNavigator */ = {isa = PBXFileReference; lastKnownFileType = text; path = DeeplinkNavigator; sourceTree = SOURCE_ROOT; };
+		5B9D45D829DFE1D40034E500 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B9D45DB29DFE1D40034E500 /* ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleApp.swift; sourceTree = "<group>"; };
+		5B9D45DD29DFE1D40034E500 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5B9D45DF29DFE1D60034E500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B9D45E229DFE1D60034E500 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5B9D45E429DFE1D60034E500 /* Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Example.entitlements; sourceTree = "<group>"; };
+		5B9D45EA29DFE2720034E500 /* DeeplinkNavigator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DeeplinkNavigator; path = ../../DeeplinkNavigator; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5B9D457929DFD27C0034E500 /* Frameworks */ = {
+		5B9D45D529DFE1D40034E500 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B9D459229DFD4200034E500 /* DeeplinkNavigator in Frameworks */,
+				5B9D45ED29DFE27F0034E500 /* DeeplinkNavigator in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5B9D457329DFD27C0034E500 = {
+		5B9D45CF29DFE1D40034E500 = {
 			isa = PBXGroup;
 			children = (
-				5B9D457E29DFD27C0034E500 /* Example */,
-				5B9D457D29DFD27C0034E500 /* Products */,
-				5B9D459029DFD4200034E500 /* Frameworks */,
+				5B9D45DA29DFE1D40034E500 /* Example */,
+				5B9D45D929DFE1D40034E500 /* Products */,
+				5B9D45EB29DFE27F0034E500 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		5B9D457D29DFD27C0034E500 /* Products */ = {
+		5B9D45D929DFE1D40034E500 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5B9D457C29DFD27C0034E500 /* Example.app */,
+				5B9D45D829DFE1D40034E500 /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5B9D457E29DFD27C0034E500 /* Example */ = {
+		5B9D45DA29DFE1D40034E500 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				5B9D458F29DFD3E20034E500 /* DeeplinkNavigator */,
-				5B9D457F29DFD27C0034E500 /* DeeplinkNavigatorApp.swift */,
-				5B9D458129DFD27C0034E500 /* ContentView.swift */,
-				5B9D458329DFD27D0034E500 /* Assets.xcassets */,
-				5B9D458829DFD27D0034E500 /* DeeplinkNavigator.entitlements */,
-				5B9D458529DFD27D0034E500 /* Preview Content */,
+				5B9D45EA29DFE2720034E500 /* DeeplinkNavigator */,
+				5B9D45DB29DFE1D40034E500 /* ExampleApp.swift */,
+				5B9D45DD29DFE1D40034E500 /* ContentView.swift */,
+				5B9D45DF29DFE1D60034E500 /* Assets.xcassets */,
+				5B9D45E429DFE1D60034E500 /* Example.entitlements */,
+				5B9D45E129DFE1D60034E500 /* Preview Content */,
 			);
 			path = Example;
 			sourceTree = "<group>";
 		};
-		5B9D458529DFD27D0034E500 /* Preview Content */ = {
+		5B9D45E129DFE1D60034E500 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				5B9D458629DFD27D0034E500 /* Preview Assets.xcassets */,
+				5B9D45E229DFE1D60034E500 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		5B9D459029DFD4200034E500 /* Frameworks */ = {
+		5B9D45EB29DFE27F0034E500 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -84,13 +84,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5B9D457B29DFD27C0034E500 /* Example */ = {
+		5B9D45D729DFE1D40034E500 /* Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B9D458B29DFD27D0034E500 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildConfigurationList = 5B9D45E729DFE1D60034E500 /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
-				5B9D457829DFD27C0034E500 /* Sources */,
-				5B9D457929DFD27C0034E500 /* Frameworks */,
-				5B9D457A29DFD27C0034E500 /* Resources */,
+				5B9D45D429DFE1D40034E500 /* Sources */,
+				5B9D45D529DFE1D40034E500 /* Frameworks */,
+				5B9D45D629DFE1D40034E500 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -98,28 +98,28 @@
 			);
 			name = Example;
 			packageProductDependencies = (
-				5B9D459129DFD4200034E500 /* DeeplinkNavigator */,
+				5B9D45EC29DFE27F0034E500 /* DeeplinkNavigator */,
 			);
-			productName = DeeplinkNavigator;
-			productReference = 5B9D457C29DFD27C0034E500 /* Example.app */;
+			productName = Example;
+			productReference = 5B9D45D829DFE1D40034E500 /* Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5B9D457429DFD27C0034E500 /* Project object */ = {
+		5B9D45D029DFE1D40034E500 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					5B9D457B29DFD27C0034E500 = {
+					5B9D45D729DFE1D40034E500 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 5B9D457729DFD27C0034E500 /* Build configuration list for PBXProject "DeeplinkNavigator" */;
+			buildConfigurationList = 5B9D45D329DFE1D40034E500 /* Build configuration list for PBXProject "Example" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,42 +127,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 5B9D457329DFD27C0034E500;
-			productRefGroup = 5B9D457D29DFD27C0034E500 /* Products */;
+			mainGroup = 5B9D45CF29DFE1D40034E500;
+			productRefGroup = 5B9D45D929DFE1D40034E500 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5B9D457B29DFD27C0034E500 /* Example */,
+				5B9D45D729DFE1D40034E500 /* Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5B9D457A29DFD27C0034E500 /* Resources */ = {
+		5B9D45D629DFE1D40034E500 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B9D458729DFD27D0034E500 /* Preview Assets.xcassets in Resources */,
-				5B9D458429DFD27D0034E500 /* Assets.xcassets in Resources */,
+				5B9D45E329DFE1D60034E500 /* Preview Assets.xcassets in Resources */,
+				5B9D45E029DFE1D60034E500 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5B9D457829DFD27C0034E500 /* Sources */ = {
+		5B9D45D429DFE1D40034E500 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B9D458229DFD27C0034E500 /* ContentView.swift in Sources */,
-				5B9D458029DFD27C0034E500 /* DeeplinkNavigatorApp.swift in Sources */,
+				5B9D45DE29DFE1D40034E500 /* ContentView.swift in Sources */,
+				5B9D45DC29DFE1D40034E500 /* ExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5B9D458929DFD27D0034E500 /* Debug */ = {
+		5B9D45E529DFE1D60034E500 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -222,7 +222,7 @@
 			};
 			name = Debug;
 		};
-		5B9D458A29DFD27D0034E500 /* Release */ = {
+		5B9D45E629DFE1D60034E500 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -275,12 +275,12 @@
 			};
 			name = Release;
 		};
-		5B9D458C29DFD27D0034E500 /* Debug */ = {
+		5B9D45E829DFE1D60034E500 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Example/DeeplinkNavigator.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Example/Example.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -289,6 +289,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DeeplinkNavigator;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -296,7 +298,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.emirates.DeeplinkNavigator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emirates.deeplinkNavigator.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -307,12 +309,12 @@
 			};
 			name = Debug;
 		};
-		5B9D458D29DFD27D0034E500 /* Release */ = {
+		5B9D45E929DFE1D60034E500 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Example/DeeplinkNavigator.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Example/Example.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -321,6 +323,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DeeplinkNavigator;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -328,7 +332,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.emirates.DeeplinkNavigator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emirates.deeplinkNavigator.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -342,20 +346,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5B9D457729DFD27C0034E500 /* Build configuration list for PBXProject "DeeplinkNavigator" */ = {
+		5B9D45D329DFE1D40034E500 /* Build configuration list for PBXProject "Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B9D458929DFD27D0034E500 /* Debug */,
-				5B9D458A29DFD27D0034E500 /* Release */,
+				5B9D45E529DFE1D60034E500 /* Debug */,
+				5B9D45E629DFE1D60034E500 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B9D458B29DFD27D0034E500 /* Build configuration list for PBXNativeTarget "Example" */ = {
+		5B9D45E729DFE1D60034E500 /* Build configuration list for PBXNativeTarget "Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B9D458C29DFD27D0034E500 /* Debug */,
-				5B9D458D29DFD27D0034E500 /* Release */,
+				5B9D45E829DFE1D60034E500 /* Debug */,
+				5B9D45E929DFE1D60034E500 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -363,11 +367,11 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5B9D459129DFD4200034E500 /* DeeplinkNavigator */ = {
+		5B9D45EC29DFE27F0034E500 /* DeeplinkNavigator */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = DeeplinkNavigator;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 5B9D457429DFD27C0034E500 /* Project object */;
+	rootObject = 5B9D45D029DFE1D40034E500 /* Project object */;
 }

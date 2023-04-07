@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  DeeplinkNavigator
+//  Example
 //
 //  Created by Fahied on 07/04/2023.
 //
@@ -14,7 +14,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world! \(DeeplinkNavigator().text)")
+            Text("\(DeeplinkNavigator().text)")
         }
         .padding()
     }
